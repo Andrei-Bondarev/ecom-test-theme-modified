@@ -1,0 +1,73 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links_AeUUA4": {
+          "type": "links",
+          "settings": {
+            "menu": "main-menu",
+            "show_menu_title": true
+          }
+        },
+        "links_LWKHmL": {
+          "type": "links",
+          "settings": {
+            "menu": "customer-care",
+            "show_menu_title": true
+          }
+        },
+        "links_DQ4m68": {
+          "type": "links",
+          "settings": {
+            "menu": "family",
+            "show_menu_title": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "STORE",
+            "content": "<p>716 Kipling Ave. Toronto, ON, M8Z 5G5<\/p><p>MON - FRI 9-5 pm<\/p><p>shop@thebeautyhouse.ca<\/p><p>+1 437 538-5234<\/p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "newsletter_CzeUYF": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "links_AeUUA4",
+        "links_LWKHmL",
+        "links_DQ4m68",
+        "text",
+        "newsletter_CzeUYF"
+      ],
+      "custom_css": [
+        ".link-faded {color: rgb(var(--text-color) \/ 0.65);}",
+        ".text-subdued {color: rgb(var(--text-color) \/ 0.65);}",
+        ".input {border-color: #e0e0e0;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

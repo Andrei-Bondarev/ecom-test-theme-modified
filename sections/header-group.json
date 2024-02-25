@@ -1,0 +1,71 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_7WkbPM": {
+          "type": "message",
+          "settings": {
+            "text": "FREE SHIPPING ON ORDERS $75+ CANADA & USA."
+          }
+        },
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "BUY 2 BRONSUN TINTS, AND RECEIVE A FREE DEVELOPER!"
+          }
+        }
+      },
+      "block_order": [
+        "message_7WkbPM",
+        "message-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "autoplay": false,
+        "cycle_speed": 5,
+        "desktop_font_size": 11,
+        "mobile_font_size": 11,
+        "background": "#cdb8a7",
+        "text_color": "#3a3a3a"
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        "@media screen and (min-width: 1150px) {.header__primary-nav {column-gap: 2.5rem; }}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "show_separation_border": true,
+        "reduce_padding": true,
+        "logo": "shopify:\/\/shop_images\/TBH_shop_beige_txt_white.png",
+        "logo_max_width": 60,
+        "logo_mobile_max_width": 40,
+        "menu": "main-menu",
+        "sidebar_menu": "main-menu",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "logo_left_navigation_right",
+        "show_icons": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": true,
+        "transparent_header_text_color": "#3a3a3a",
+        "transparent_logo": "shopify:\/\/shop_images\/TBH_shop_beige_txt_white.png"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
